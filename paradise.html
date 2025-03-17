@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Landing Page -->
+    <section id="landing-page">
+        <div class="overlay">
+            <h1>Paradise Nursery</h1>
+            <p>Your one-stop shop for beautiful houseplants.At Paradise Nursery, we carefully curate our collection to ensure that each plant is healthy, vibrant, and ready to thrive in your home. From low-maintenance succulents to tropical beauties that brighten up any space, we have something for every plant enthusiast.</p>
+            <button id="get-started">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Product Listing Page -->
+    <section id="products-page" class="hidden">
+        <header>
+            <h2>Our Plants</h2>
+            <div id="cart-icon">🛒 <span id="cart-count">0</span></div>
+        </header>
+        <div class="products-container" id="products"></div>
+        <button id="view-cart">View Cart</button>
+    </section>
+
+    <!-- Shopping Cart Page -->
+    <section id="cart-page" class="hidden">
+        <header>
+            <h2>Your Cart</h2>
+            <button id="back-to-shop">← Continue Shopping</button>
+        </header>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
